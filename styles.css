@@ -18,6 +18,86 @@ body {
     padding-bottom: 3rem;
 }
 
-img {
+/*img {
     display: block;
+}*/
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+ .container img {
+    border-radius:50%;
+    border:8px solid darkgreen; 
+  }
+  .profile-user-name{
+    font-weight: normal;
+    position: absolute;
+    top: 11px;
+ }
+
+ .profile-edit-btn{
+    position: absolute;
+    top: 3.5%;
+    right: 38%;
+ }
+ .profile-settings-btn{
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 3.5%;
+    right: 36%;
+ }
+ ul {
+    display: flex;
+    list-style-type: none;
+ }
+
+ .container1 {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    flex: 30%;
+  }
+  
+  .gallery-image1{
+    width: 22%;
+    height: auto;
+  }
+
+  .gallery-image2{
+    width: 35%;
+    height: auto;
+    
+  }
+
+  .gallery-image5{
+    height: 350px;
+    width: 47%;
+
+  }
+
+  .gallery-image11{
+  width: 22%;
+  height: 350px;
+  }
+
+
+
+
+
+
+
+
+ 
+
